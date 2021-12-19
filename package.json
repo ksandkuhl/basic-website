@@ -1,0 +1,15 @@
+{
+  "name": "basic-website",
+  "version": "1.0.0",
+  "description": "serving html with reload stuff",
+  "main": "src/start.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ws": "^8.3.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

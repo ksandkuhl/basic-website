@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      const ws = new WebSocket("ws://localhost:3001");
+      ws.addEventListener("message", () => {
+        location.reload();
+      });
+    </script>
+    <style>
+      body {
+        background-color: lightblue;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      .banana {
+        background-color: #149789;
+      }
+      .banana2 {
+        background-color: #01a99c;
+        width: 50%;
+        height: 50%;
+      }
+      img {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banana">Nur eine Fl&auml;che</div>
+    <img alt="earth" src="earth.jpg" />
+    <div class="banana2">eine weitere Fl&auml;che</div>
+    <div class="banana2">eine weitere Fl&auml;che</div>
+    <div class="banana2">eine weitere Fl&auml;che</div>
+  </body>
+</html>
