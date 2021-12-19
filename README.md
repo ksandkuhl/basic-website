@@ -10,3 +10,5 @@ Just install it via
 And start it via
 
       npm start
+
+Have fun manipulating the given HTML-File or do whatever you want with it.
